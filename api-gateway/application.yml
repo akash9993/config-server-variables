@@ -36,6 +36,10 @@ spring:
           predicates:
             - Path= /self-service-oracle-template-microservice/v1/api/oracle-db/**
 
+springdoc:
+  api-docs:
+    path: /swagger/api/v1/api-docs
+
 info:
   application:
     webPortalOrigin: http://localhost:3000,http://20.219.56.2:30000,https://frontend-service-kislay99-dev.apps.sandbox-m4.g2pi.p1.openshiftapps.com/
