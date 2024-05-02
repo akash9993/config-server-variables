@@ -31,13 +31,13 @@ spring:
 keycloak:
   admin:
     client: cdcp-admin
-    client-secret: ip9GCei3ewI3I9EC5xZxvs8Hf3a9vFYs
+    client-secret: tTKzmYHmzqM0lQ79fbn6uyFLR6bVzb1d
 
   url: http://localhost:8080
   realm: nagarro_cdcp
   issuer-uri: http://localhost:8080/realms/nagarro_cdcp
   client: cdcp
-  client-secret: 48tUhS0rh3dKMkGjPSEBtbAzkPBez9VU
+  client-secret: 5mnYzcCVbkx2j3Qxm96TM6HZBsEIA9yP
 
 jwt:
   auth:
