@@ -22,7 +22,7 @@ spring:
         - id: self-service-file-microservice
           uri: lb://self-service-file-microservice
           predicates:
-            - Path= /self-service-file-microservice/v1/api/uploader/**,/self-service-file-microservice/v1/api/file-services/**,/self-service-file-microservice/v1/api/airflow-service/**,/self-service-file-microservice/v1/api/self-service-process-status/**,/self-service-file-microservice/v1/api/self-service-status/**
+            - Path= /self-service-file-microservice/v1/api/uploader/**,/self-service-file-microservice/v1/api/file-services/**,/self-service-file-microservice/v1/api/airflow-service/**,/self-service-file-microservice/v1/api/self-service-process-status/**,/self-service-file-microservice/v1/api/self-service-status/**,/self-service-file-microservice/swagger/**,/self-service-file-microservice/swagger-ui/**
         - id: self-service-template-microservice
           uri: lb://self-service-template-microservice
           predicates:
@@ -34,7 +34,7 @@ spring:
         - id: self-service-oracle-template-microservice
           uri: lb://self-service-oracle-template-microservice
           predicates:
-            - Path= /self-service-oracle-template-microservice/v1/api/oracle-db/**
+            - Path= /self-service-oracle-template-microservice/v1/api/oracle-db/**,/self-service-oracle-template-microservice/swagger/**,/self-service-oracle-template-microservice/swagger-ui/**
 
 springdoc:
   api-docs:
