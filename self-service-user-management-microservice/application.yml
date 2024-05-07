@@ -31,7 +31,9 @@ spring:
 
 springdoc:
   api-docs:
-    path: /swagger/api/v1/api-docs
+    path: /secure-ssp/api-docs
+  swagger-ui:
+    path: /secure-ssp/api-ui.html
 
 openapi:
   info:
