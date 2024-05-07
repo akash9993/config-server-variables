@@ -31,9 +31,10 @@ spring:
 
 springdoc:
   api-docs:
-    path: /v1/api/secure-ssp/api-docs
+    path: /v1/api/user-mgmt/secure-ssp/api-docs
   swagger-ui:
-    path: /v1/api/secure-ssp/api-ui.html
+    disable-swagger-default-url: true
+    path: /v1/api/user-mgmt/secure-ssp/swagger-ui.html
 openapi:
   info:
     title: "SSP User Management Service API"
@@ -46,4 +47,4 @@ openapi:
 
 http:
   security:
-    allowRequests: /swagger/**,/swagger-ui/**,/v1/api/user-mgmt/**,/v1/api/secure-ssp/**
+    allowRequests: /swagger/**,/swagger-ui/**,/v1/api/user-mgmt/**
