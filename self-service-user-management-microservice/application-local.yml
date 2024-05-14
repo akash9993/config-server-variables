@@ -30,7 +30,7 @@ spring:
 
 keycloak:
   admin:
-    client: cdcp-admin
+    client: cdcp_admin
     client-secret: 7Z2gZms0yY50UaZr2ArxFEJPFyK0xnmw
 
   url: http://localhost:8080
