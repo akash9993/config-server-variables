@@ -33,3 +33,12 @@ jwt:
 openapi:
   info:
     server: http://localhost:8082/self-service-template-microservice
+db:
+  users:
+    credentials:
+      generic:
+        username: CDCP_SPECIAL_CHARACTER
+        password: JWJ5hi|jQoQKmawe!5v
+      mdr:
+        username: CDCP_MDR
+        password: RUgAPcqsAhIxI#g*6fc
