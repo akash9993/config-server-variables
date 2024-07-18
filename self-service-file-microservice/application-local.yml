@@ -44,7 +44,7 @@ airflow:
 hdfs:
   base-url: hdfs://20.55.72.143:9000
   username: cdcpuser
-  web-url: https://20.55.72.143:14000/webhdfs/v1/
+  web-url: https://20.55.72.143:14000/webhdfs/v1
 
 openapi:
   info:
